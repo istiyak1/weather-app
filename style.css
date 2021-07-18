@@ -1,0 +1,56 @@
+*{
+	margin:0px;
+	padding:0px;
+    box-sizing: border-box;
+	font-family: tahoma;
+	color: aliceblue;
+}
+.content{
+	width: 90%;
+	margin: auto;
+	background-image: linear-gradient(to bottom, rgb(70, 115, 167),rgba(32,54,02));
+	height: 100vh;
+}
+a{
+	text-decoration:none;
+}
+ul,li{
+	list-style:none;
+}
+#branding{
+	margin-top:40px;
+    height: 162px;
+}
+
+.form-control:focus{
+   box-shadow: none !important;
+   border: 1px solid green !important;
+}
+.form-control{
+	background-color: rgba(34,43,77) !important;
+	border: none !important;
+	border-bottom: none;
+	color: azure !important;
+}
+.form-control::placeholder{
+	color: azure !important;
+	font-size: 14px;
+}
+#condition{
+	width: 100px;
+	height: auto;
+}
+#history-result{
+	display: none;
+}
+b, strong{
+	margin-right: 20px;
+}
+.Mycountry{
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.mute{
+	color: aqua !important;
+}
