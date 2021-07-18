@@ -15,8 +15,8 @@ const historyResult = document.getElementById('history-result')
 const current = 'Kurigram, BD'
 
 const KEY = 'd31c6fb1ff108e6d492dd7006ab9c957'
-const API = `http://api.openweathermap.org/data/2.5/weather?appid=${KEY}`
-const ICON = 'http://openweathermap.org/img/wn/'
+const API = `https://api.openweathermap.org/data/2.5/weather?appid=${KEY}`
+const ICON = 'https://openweathermap.org/img/wn/'
 
 window.onload = function(){
     navigator.geolocation.getCurrentPosition( s=> {
